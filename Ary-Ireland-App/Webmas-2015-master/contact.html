@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""> <!-- Description to optimize the SEO -->
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Capuchin Day Centre for Homeless People</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="bootstrap/css/logo-nav.css" rel="stylesheet">
+    <link href = "css/style.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+	
+	<script
+	src="http://maps.googleapis.com/maps/api/js">
+	</script>
+
+		<script>
+		function initialize()
+		{
+		var mapOpt = {
+		center:new google.maps.LatLng( 53.349210, -6.275992),
+		zoom:18,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+			};
+			var map=new google.maps.Map(document.getElementById("googleMap"),mapOpt);
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+				</script>
+  </head>
+<!-- NAVBAR
+================================================== -->
+<body>
+<div class = "container-fluid">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id= "navbarstyle">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="pictures/CapuchinDayCentre.png" alt=""></a> <!-- idea that the logo could be put in the navbar brand -->
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="fundrasing.html">Fundrasing</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="thankyou.html">Thank you</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+    <div class = "col-lg-4">
+          <h2> Contact Us </h2>
+            <p>The Capuchin Day Centre,</p> 
+            <p>29 Bow Street, Dublin 7.</p>
+
+            <p>For Credit Card donations telephone 
+              Bro. Kevin or Theresa at (01) 8720770
+              capuchindaycentre@eircom.net</p>
+                
+            <p>To enquire about 
+             volunteering contact:</p>
+
+            <p>Alan Bailey – Volunteer Co-ordinator.
+            Phone:  8720770  or 086- 2479999
+            Email: alandaycentre@eircom.net.</p>
+    </div>
+    <div class = "col-lg-6 col-md-offset-2">
+      
+    <div id="googleMap" style="width:500px;height:380px;"></div>
+    
+      
+    </div>
+      </div><!-- /.row -->
+	  
+      <!-- FOOTER -->  
+      <footer class="footer" >
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Capuchin Day Centre for Homeless People &middot; 29 Bow Street, Dublin 7 &middot; All rights reserved</p>                    
+      </footer>
+
+    </div><!-- /.container -->
+</div> <!-- end of  container div -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
